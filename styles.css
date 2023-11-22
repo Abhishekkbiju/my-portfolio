@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+/* body{
+        background:#bf97f7;
+    } */
+
+    
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 100px;
+}
+.logo{
+    width: 150px;
+}
+.listitem{
+    display: inline;
+    margin-right: 30px;
+    
+}
+.link{
+    font-weight: bold;
+    text-decoration: none; 
+    font-size: 25px;
+    color: black;
+    transition: font-size 0.5s;
+
+}
+.link:hover{
+    font-size: 30px;
+    color: crimson;
+}
+
+.title{
+    margin-left: 7%;
+    margin-top: 7%;
+}
+.titleh1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.titleh1 span{
+    color: aqua;
+}
+.titlep{
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.download{
+    background-color: chartreuse;
+    padding: 10px 5px;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.img{
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    bottom: 0px;
+    right: 30px;
+    top: 120px;
+
+
+}
+.imgmain{
+    width: 100%;
+    transition: width 0.5s;
+   
+}
+.imgmain:hover{
+    width: 90%;
+}
+  #about{
+    margin-top: 24%;
+    margin-left: 7%;
+}  
+.heading {
+    text-align: center;
+    margin-bottom: 25px;
+    
+}
+.heading h1{
+    font-size: 50px;
+
+}
+.heading span{
+    font-size: 40px;
+    
+    color:cyan;
+}
+.abtc{
+    display:grid;
+    grid-template-columns: 50% 50%;
+} 
+.abtimg img{
+    width: 100%;
+    height: 400px;
+}
+.abtd p{
+    text-align: justify;
+    margin: 20px;
+  font-weight: bold;
+}
+.abtinfo{
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0px;
+}
+.shead{
+    margin-top: 66%;
+    text-align: center;
+    font-size: 25px;
+}
+.skillc{
+    display: flex;
+}
+.skillimg img{
+    width: 800px;
+    height: 500px;
+}
+.skillslist{
+    font-size: 20px;
+    margin-top: 70px;
+    background-color: #fcf003;
+    font-weight: bold;
+    margin-left: 70px;
+}
+.contacth{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.contactc{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.cimg img{
+    width: 500px;
+    height: 400px;
+}
+.cinfo{
+    margin-top: 50px;
+    background-color: #aeeb34;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* .clink{
+    text-decoration: none;
+    color:black;
+} */
